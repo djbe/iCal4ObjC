@@ -32,6 +32,7 @@ extern NSString * const CGICalendarFooterContentline;
 - (CGICalendarObject *)objectAtIndex:(NSUInteger)index;
 
 @property (nonatomic, readonly) NSString *description;
++ (NSString *)unescape:(NSString *)aValue;
 
 - (BOOL)writeToFile:(NSString *)path;
 
